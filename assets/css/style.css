@@ -8,6 +8,9 @@ body {
 .txt-alt{
     color: #f4fcfd;
 }
+.txt-clr{
+    color: #031012;
+}
 /* backgrounds */
 .bg-clr-primary {
     background-color: #2fc2da !important;
@@ -22,11 +25,11 @@ body {
 }
 
 .bg-clr-sec-shade {
-    background-color: #dfe7f9 !important;
+    background-color: #8a92ea66 !important;
 }
 
 .bg-clr-sec-shade {
-    background-color: #dfe7f9 !important;
+    background-color: #8a92ea73 !important;
 }
 
 .bg-clr-pri-shade {
@@ -52,7 +55,7 @@ body {
 }
 
 .clr-sec-shade {
-    color: #dfe7f9 !important;
+    color: #8a92ea73 !important;
 }
 
 .clr-pri-shade {
@@ -81,3 +84,10 @@ div.breaker {
 /* <div class="showhim">HOVER ME
   <div class="showme">hai</div>
 </div> */
+
+img.value-point-img{
+    align-self: center;
+    width: 25%;
+    height: auto;
+    margin: 15px;
+}
