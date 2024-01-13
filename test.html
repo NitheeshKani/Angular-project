@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Playing/Pausing Video</title>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible"content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+   <h1 style="color: green;">Welcome to Tutorials Point</h1>
+   <!-- Video element -->
+   <video src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+type="video/mp4" muted class="vid" loop style="border: solid; width: 550px;">
+   </video>
+   <script>
+
+      // Listening to the video element
+      let clip = document.querySelector(".vid")
+
+      /* Adding the event listeners on the video to play/pause the video. */
+      clip.addEventListener("mouseover", function (e) {
+         clip.play();
+      })
+
+      /* Applying the mouse out event to pause the video */
+      clip.addEventListener("mouseout", function (e) {
+         clip.pause();
+      })
+   </script>
+</body>
+</html>
