@@ -84,10 +84,3 @@ div.breaker {
 /* <div class="showhim">HOVER ME
   <div class="showme">hai</div>
 </div> */
-
-img.value-point-img{
-    align-self: center;
-    width: 25%;
-    height: auto;
-    margin: 15px;
-}
